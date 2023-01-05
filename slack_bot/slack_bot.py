@@ -7,7 +7,7 @@ import os
 time.sleep(10)
 
 #private
-webhook_url_2 = "https://hooks.slack.com/services/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"
+webhook_url_2 = "********"
 
 
 #pg = create_engine('postgresql://rub:123456@postgresdb:5432/twitter', echo=True)
