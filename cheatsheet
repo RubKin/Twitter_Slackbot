@@ -1,0 +1,27 @@
+
+Docker-compose build
+
+docker-compose up
+
+-- Start the pipeline in the background
+docker-compose up -d
+
+--inspect the output
+docker-compose logs
+
+--log into mongoDB
+docker-compose exec mongodb mongosh
+
+--in MongoDB 
+use twitter
+
+db.tweets.find()
+
+psql -U rub -h localhost -p 5555 twitter
+
+
+--SLACKBOT
+curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' https://hooks.slack.com/services/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
+
+https://hooks.slack.com/services/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
+
